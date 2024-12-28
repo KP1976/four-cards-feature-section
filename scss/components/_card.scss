@@ -1,10 +1,8 @@
 .card {
-  align-items: end;
   background-color: $white;
   border-radius: $border-radius-8;
   box-shadow: 0 0.75rem 1rem 0.25rem rgba(84, 158, 242, 0.15);
   @include flex-column($space-30);
-  height: 14rem;
   padding: $space-32 $space-28 $space-28 $space-32;
 
   &--cyan {
@@ -42,7 +40,7 @@
   }
 
   &__icon {
-    justify-self: center;
+    align-self: end;
     width: 3.5rem;
   }
 }

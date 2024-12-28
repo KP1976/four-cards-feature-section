@@ -206,14 +206,12 @@ main {
 }
 
 .card {
-  align-items: end;
   background-color: hsl(0, 0%, 100%);
   border-radius: 0.5rem;
   box-shadow: 0 0.75rem 1rem 0.25rem rgba(84, 158, 242, 0.15);
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
-  height: 14rem;
   padding: 2rem 1.75rem 1.75rem 2rem;
 }
 .card--cyan {
@@ -246,7 +244,7 @@ main {
   line-height: 1.85;
 }
 .card__icon {
-  justify-self: center;
+  align-self: end;
   width: 3.5rem;
 }
 
