@@ -1,0 +1,28 @@
+.header {
+  @include flex-column($space-20);
+  text-align: center;
+
+  &__group {
+    @include flex-column($space-16);
+  }
+
+  &__title,
+  &__subtitle {
+    color: $very-dark-blue;
+    font-size: $font-size-24;
+    font-weight: 200;
+    letter-spacing: $letter-spacing-0_2;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+  }
+
+  &__description {
+    color: $grayish-blue;
+    font-size: $font-size-16;
+    font-weight: 400;
+    letter-spacing: $letter-spacing--0_4;
+    line-height: $line-height-155;
+  }
+}
