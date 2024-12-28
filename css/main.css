@@ -250,6 +250,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    padding: 2rem;
   }
 }
 .card--cyan {
@@ -272,6 +273,13 @@ main {
   flex-direction: column;
   gap: 0.5rem;
 }
+@media (min-width: 46.25rem) {
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+}
 .card__title {
   color: hsl(234, 12%, 34%);
   font-size: 1.25rem;
@@ -287,6 +295,11 @@ main {
 .card__icon {
   align-self: end;
   width: 3.5rem;
+}
+@media (min-width: 46.25rem) {
+  .card__icon {
+    width: 4rem;
+  }
 }
 
 .attribution {

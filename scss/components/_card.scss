@@ -8,6 +8,7 @@
 
   @include respond-to($breakpoint) {
     @include flex-column(2.5rem);
+    padding: $space-32;
   }
 
   &--cyan {
@@ -31,6 +32,10 @@
 
   &__content {
     @include flex-column($space-8);
+
+    @include respond-to($breakpoint) {
+      @include flex-column($space-14);
+    }
   }
 
   &__title {
@@ -50,5 +55,9 @@
   &__icon {
     align-self: end;
     width: 3.5rem;
+
+    @include respond-to($breakpoint) {
+      width: 4rem;
+    }
   }
 }
