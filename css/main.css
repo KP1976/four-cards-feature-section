@@ -177,6 +177,13 @@ main {
   gap: 1.25rem;
   text-align: center;
 }
+@media (min-width: 46.25rem) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
 .header__group {
   display: flex;
   flex-direction: column;
@@ -188,6 +195,11 @@ main {
   font-weight: 200;
   letter-spacing: 0.2px;
 }
+@media (min-width: 46.25rem) {
+  .header__title, .header__subtitle {
+    font-size: 2.25rem;
+  }
+}
 .header__subtitle {
   font-weight: 600;
 }
@@ -197,6 +209,11 @@ main {
   font-weight: 400;
   letter-spacing: -0.4px;
   line-height: 1.55;
+}
+@media (min-width: 46.25rem) {
+  .header__description {
+    width: 32.25rem;
+  }
 }
 
 .cards {

@@ -2,6 +2,10 @@
   @include flex-column($space-20);
   text-align: center;
 
+  @include respond-to($breakpoint) {
+    @include flex-column($space-24);
+  }
+
   &__group {
     @include flex-column($space-16);
   }
@@ -12,6 +16,10 @@
     font-size: $font-size-24;
     font-weight: 200;
     letter-spacing: $letter-spacing-0_2;
+
+    @include respond-to($breakpoint) {
+      font-size: $font-size-36;
+    }
   }
 
   &__subtitle {
@@ -24,5 +32,9 @@
     font-weight: 400;
     letter-spacing: $letter-spacing--0_4;
     line-height: $line-height-155;
+
+    @include respond-to($breakpoint) {
+      width: 32.25rem;
+    }
   }
 }
