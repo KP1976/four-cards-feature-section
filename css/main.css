@@ -123,7 +123,7 @@ display:revert; revert to element instead of attribute */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  src: url("../../assets/fonts/poppins-v22-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../assets/fonts/poppins-v22-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-regular - latin */
 @font-face {
@@ -131,7 +131,7 @@ display:revert; revert to element instead of attribute */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/fonts/poppins-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../assets/fonts/poppins-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-600 - latin */
 @font-face {
@@ -139,7 +139,7 @@ display:revert; revert to element instead of attribute */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  src: url("../../assets/fonts/poppins-v22-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../assets/fonts/poppins-v22-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 html,
 body {
