@@ -1,0 +1,48 @@
+.card {
+  align-items: end;
+  background-color: $white;
+  border-radius: $border-radius-8;
+  box-shadow: 0 0.75rem 1rem 0.25rem rgba(84, 158, 242, 0.15);
+  @include flex-column($space-30);
+  height: 14rem;
+  padding: $space-32 $space-28 $space-28 $space-32;
+
+  &--cyan {
+    border-top: 4px solid $cyan;
+  }
+
+  &--red {
+    border-top: 4px solid $red;
+  }
+
+  &--orange {
+    border-top: 4px solid $orange;
+  }
+
+  &--blue {
+    border-top: 4px solid $blue;
+  }
+
+  &__content {
+    @include flex-column($space-8);
+  }
+
+  &__title {
+    color: $very-dark-blue;
+    font-size: $font-size-20;
+    font-weight: 600;
+  }
+
+  &__description {
+    color: $grayish-blue;
+    font-size: $font-size-12;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: $line-height-185;
+  }
+
+  &__icon {
+    justify-self: center;
+    width: 3.5rem;
+  }
+}
