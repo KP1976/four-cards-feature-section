@@ -4,6 +4,7 @@
   box-shadow: 0 0.75rem 1rem 0.25rem rgba(84, 158, 242, 0.15);
   @include flex-column($space-30);
   justify-content: space-between;
+  max-width: 21.875rem;
   padding: $space-32 $space-28 $space-28 $space-32;
 
   @include respond-to($breakpoint) {

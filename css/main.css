@@ -166,7 +166,6 @@ main {
   gap: 4.5rem;
   flex: 1 1 auto;
   justify-content: center;
-  max-width: 69.625rem;
   padding: 5.75rem 2rem 4.688rem;
   width: 100%;
 }
@@ -244,6 +243,7 @@ main {
   flex-direction: column;
   gap: 1.875rem;
   justify-content: space-between;
+  max-width: 21.875rem;
   padding: 2rem 1.75rem 1.75rem 2rem;
 }
 @media (min-width: 46.25rem) {
