@@ -1,5 +1,12 @@
 .cards {
   @include flex-column($space-24);
+
+  @include respond-to($breakpoint) {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
 @import "../components/card";
